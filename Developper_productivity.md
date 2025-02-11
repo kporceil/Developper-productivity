@@ -32,23 +32,23 @@ voici les principaux :
 	- Casi pas de personnalisation possible
 </details>
 <details>
-<summary>2. [Bash](https://www.gnu.org/software/bash/)</summary>
+<summary>2. <a href="https://www.gnu.org/software/bash/">Bash</a></summary>
 	- Shell de base, issue du projet GNU.
 	- Peu de personnalisation possible.
 </details>
 <details>
-<summary>3. [Zsh](https://zsh.sourceforge.io/)</summary>
+<summary>3. <a href="https://zsh.sourceforge.io/"Zsh</a></summary>
 	- Liberté casi-absolue sur les personnalisation
 	- Grosse communauté.
 </details>
 <details>
-<summary>4. [Fish](https://fishshell.com/)</summary>
+<summary>4. <a href="https://fishshell.com/"Fish</a></summary>
 	- Plus récent.
 	- Innovant, beaucoup de plugins de base deja installé qui peuvent faciliter l'utilisation.
 	- Très personnalisable.
 </details>
 <details>
-<summary>5. [Xonsh](https://xon.sh/)</summary>
+<summary>5. <a href="https://xon.sh/"Xonsh</a></summary>
 	- Récent.
 	- Innovant.
 	- Supporte le python.
