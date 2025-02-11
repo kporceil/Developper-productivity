@@ -37,18 +37,18 @@ voici les principaux :
 	- Peu de personnalisation possible.
 </details>
 <details>
-<summary>3. <a href="https://zsh.sourceforge.io/"Zsh</a></summary>
+<summary>3. <a href="https://zsh.sourceforge.io/">Zsh</a></summary>
 	- Liberté casi-absolue sur les personnalisation
 	- Grosse communauté.
 </details>
 <details>
-<summary>4. <a href="https://fishshell.com/"Fish</a></summary>
+<summary>4. <a href="https://fishshell.com/">Fish</a></summary>
 	- Plus récent.
 	- Innovant, beaucoup de plugins de base deja installé qui peuvent faciliter l'utilisation.
 	- Très personnalisable.
 </details>
 <details>
-<summary>5. <a href="https://xon.sh/"Xonsh</a></summary>
+<summary>5. <a href="https://xon.sh/">Xonsh</a></summary>
 	- Récent.
 	- Innovant.
 	- Supporte le python.
