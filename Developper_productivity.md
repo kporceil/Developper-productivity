@@ -154,17 +154,15 @@ Au-dela des plugins et themes proposé directement par oh-my-zsh, il existe auss
 <details>
 	<summary>Quelques plugins communautaires</summary>
 	<ul>
-		<li>1</li>
-		<li>2</li>
-		<li>3</li>
+		<li><a href="https://github.com/zsh-users/zsh-syntax-highlighting">zsh-syntax-highlighting</a></li>
+		<li><a href="https://github.com/zsh-users/zsh-autosuggestions">zsh-autosuggestions</a></li>
 	</ul>
 </details>
 <details>
 	<summary>Quelques themes communautaires</summary>
 	<ul>
-		<li>1</li>
-		<li>2</li>
-		<li>3</li>
+		<li><a href="https://github.com/romkatv/powerlevel10k">powerlevel10k</a></li>
+		<li><a href="https://github.com/spaceship-prompt/spaceship-prompt">spaceship</a></li>
 	</ul>
 </details>
 
@@ -203,3 +201,6 @@ git clone https://github.com/romkatv/powerlevel10k.git $HOME/.oh-my-zsh/custom/t
 ```
 
 puis on le selectionne comme vu precedemment sois en modifiant le .zshrc ou avec omz
+
+
+n'hesitez pas a faire un tour sur le [wiki](https://github.com/ohmyzsh/ohmyzsh/wiki) de oh-my-zsh afin de trouver vos prochains plugins et themes !
