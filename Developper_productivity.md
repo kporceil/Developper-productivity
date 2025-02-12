@@ -88,7 +88,7 @@ $HOME
 └── .oh-my-zsh
 │   ├── themes
 │   ├── plugins
-│   └── themes
+│   └── custom
 └── .zshrc
 ```
 
@@ -147,5 +147,59 @@ omz plugin list # Liste les plugins built-ins
 omz plugin enable $PLUGIN_NAME # Active un plugin
 omz plugin disable $PLUGIN_NAME # Desactive un plugin
 ```
+#### La communauté oh-my-zsh
 
+Au-dela des plugins et themes proposé directement par oh-my-zsh, il existe aussi une forte communauté qui propose ces propres plugins et themes afin d'offrir de nouvelle features.
 
+<details>
+	<summary>Quelques plugins communautaires</summary>
+	<ul>
+		<li>1</li>
+		<li>2</li>
+		<li>3</li>
+	</ul>
+</details>
+<details>
+	<summary>Quelques themes communautaires</summary>
+	<ul>
+		<li>1</li>
+		<li>2</li>
+		<li>3</li>
+	</ul>
+</details>
+
+Oh-my-zsh nous offre donc la possibilité d'ajouter des plugins non officiel.
+voici comment faire :
+
+##### Le dossier Custom
+
+comme vu dans l'arborescence de oh-my-zsh, il y-a un dossier custom dans lequel nous allons pouvoir placer nos differents plugins et themes non officiel.
+
+>l'arborescence du dossier custom
+
+```
+.oh-my-zsh
+└── custom
+    ├── themes
+    └── plugins
+```
+
+###### Installer un plugins
+
+on va prendre l'exemple du plugin [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
+on commence par git clone le plugin dans le dossier ```$HOME/.oh-my-zsh/custom/plugins/```
+```Sh
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $HOME/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
+```
+
+puis, il suffit d'activer le plugin de la meme maniere que les built-ins, sois en l'ajoutant dans le .zshrc ou avec omz
+
+###### Installer un theme
+
+De la meme maniere que pour les plugins, il suffit de placer un theme dans le dossier ```$HOME/.oh-my-zsh/custom/themes/```
+exemple avec le theme [powelevel10k](https://github.com/romkatv/powerlevel10k)
+```Sh
+git clone https://github.com/romkatv/powerlevel10k.git $HOME/.oh-my-zsh/custom/themes/powerlevel10k
+```
+
+puis on le selectionne comme vu precedemment sois en modifiant le .zshrc ou avec omz
